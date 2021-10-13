@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #elem {
+            padding: 30px;
+            width: 300px;
+            border: 1px solid black;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+<div id="elem">
+    какой-то текст...
+</div>
+<form action="">
+    <input type="text" placeholder="введите число" pattern="\d{2}">
+    <input type="submit">
+</form>
+<hr>
+<form action="">
+    <input type="text" placeholder="введите число" pattern="\d{2}" required>
+    <input type="submit">
+</form>
+<br>
+<input type="text" autofocus>
+<input type="text">
+<input type="text">
+<hr>
+<form action="">
+    <input type="text" autocomplete="on" name="test">
+    <input type="submit">
+</form>
+<hr>
+<input type="text" list="country">
+<datalist id="country">
+    <option>Беларусь</option>
+    <option>Бельгия</option>
+    <option>Болгария</option>
+</datalist>
+</body>
+</html>

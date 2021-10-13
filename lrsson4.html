@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+input:disabled {
+    border: 1px solid red;
+    box-shadow: 0 0 3px red;
+}
+input.text {
+    box-shadow: 0 0 5px blue;
+}
+div.true {
+    height: 100px;
+    width: 70%;
+    border: 1px solid black;
+    box-shadow: 0 0 2px greenyellow;
+}
+table, td, th {
+    border: 1px solid black;
+}
+table, td, th {
+    border: 1px solid black;
+}
+    </style>
+</head>
+<body>
+<div class="info">
+    <header>
+        <h5>Quisque luctus</h5>
+        <ul class="sidebar">
+            <li><a href="#">about</a></li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">help</a></li>
+            <li><a href="#">contact</a></li>
+    </header>
+
+
+
+    <input type="radio" name="elem" id="elem1">
+    <label for="elem1">метка 1</label>
+    <br>
+    <input type="checkbox" name="elem" id="elem2">
+    <label for="elem2">метка 2</label>
+
+
+</div>
+<input class="text">
+<input disabled>
+<div class="true">
+
+</div>
+<table>
+    <tr>
+        <td colspan="3">Ячейка 1</td>
+    </tr>
+    <tr>
+        <td>Ячейка 4</td>
+        <td>Ячейка 5</td>
+        <td>Ячейка 6</td>
+    </tr>
+    <tr>
+        <td>Ячейка 7</td>
+        <td>Ячейка 8</td>
+        <td>Ячейка 9</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td colspan="3">Ячейка 1</td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">Ячейка 4</td>
+        <td>Ячейка 6</td>
+    </tr>
+    <tr>
+        <td>Ячейка 9</td>
+    </tr>
+</table>
+<form action="" method="GET">
+    <input type="text"><br><br>
+    <input type="checkbox">
+    <input type="checkbox" checked>
+    <input type="radio" name="radio">
+    <input type="radio" name="radio">
+    <br><br>
+    <textarea></textarea><br><br>
+    <input type="submit">
+</form>
+
+
+</body>
+</html>
